@@ -9,8 +9,8 @@ const HeroSection = () => {
 
                 <div className="relative top-[-50%] z-10 flex flex-col items-center justify-center text-white text-center lighray-text">
                     <h1 className="text-[18px] font-medium">Welcome</h1>
-                    <p className="mt-2 md:text-7xl">We’re here to bring</p>
-                    <p className='text-red-600 md:text-7xl'>your vision to life.</p>
+                    <p className="mt-2 md:text-7xl text-4xl">We’re here to bring</p>
+                    <p className='text-red-600 md:text-7xl text-4xl'>your vision to life.</p>
                 </div>
             </div>
 

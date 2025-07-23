@@ -10,17 +10,18 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-2 md:px-10 w-full bg-white/70 backdrop-blur shadow-md z-50 rounded-[35px]">
+    <header className="fixed top-2 md:px-10 px-5 md:w-full w-dvw bg-white/70 backdrop-blur shadow-md z-50 rounded-[35px]">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-18">
         <div className="text-xl font-semibold text-gray-800">
-            <img src={Logo} alt="" className='w-[150px]'/>
+          <img src={Logo} alt="" className='w-[150px]' />
         </div>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6 text-gray-700 font-light">
-          <a href="#" className="hover:text-red-500">Home</a>
-          <a href="#" className="hover:text-red-500">About</a>
-          <a href="#" className="hover:text-red-500">Contact</a>
+          <a href="#" className="hover:text-red-500 text-[20px]">Home</a>
+          <a href="#" className="hover:text-red-500 text-[20px]">About</a>
+          <a href="#" className="hover:text-red-500 text-[20px]">Services</a>
+          <a href="#" className="hover:text-red-500 text-[20px]">Contact</a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -43,7 +44,9 @@ const Header = () => {
         <div className="md:hidden px-4 pb-4">
           <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Home</a>
           <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">About</a>
+          <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Services</a>
           <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+
         </div>
       )}
     </header>

@@ -40,17 +40,18 @@ const getAnchorAndDir = (origin, w, h) => {
 const LightRays = ({
   raysOrigin = "top-center",
   raysColor = DEFAULT_COLOR,
-  raysSpeed = 1,
+  raysSpeed = 2.5,
   lightSpread = 1,
-  rayLength = 2,
+  rayLength = 2.5,
   pulsating = false,
   fadeDistance = 1.0,
-  saturation = 1.0,
+  saturation = 1.5,
   followMouse = true,
   mouseInfluence = 0.1,
   noiseAmount = 0.0,
   distortion = 0.0,
   className = "header-clr",
+  
   
 }) => {
   const containerRef = useRef(null);
