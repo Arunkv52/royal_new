@@ -6,28 +6,28 @@ const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <>
-            <footer className=' bg-black py-20 text-white md:px-10 px-3'>
+            <footer className=' bg-black py-20 text-white md:px-10 px-3' id='Footer'>
                 <div className="footer-start md:flex md:justify-between">
                     <div className="md:w-1/2 w-full">
-                        <div className="addr py-5">
+                        <div className="addr">
                             <h6 className='text-white/60 text-[14px] py-2'>[Address]</h6>
-                            <p>Louisville, KY</p>
+                            <p>Jurong West Street 74, 756 #02-70, <br /> Singapore 640756</p>
                         </div>
                         <div className="email py-5">
                             <h6 className='text-white/60 text-[14px] py-2'>[Email]</h6>
-                            <p>Louisville, KY</p>
+                            <p>sales@royalsynergy.sg</p>
                         </div>
                         <div className="phone py-5">
                             <h6 className='text-white/60 text-[14px] py-2'>[Phone]</h6>
-                            <p>Louisville, KY</p>
+                            <p>+65 97271435, 8377 1041</p>
                         </div>
                         <div className="social py-5">
                             <h6 className='text-white/60 text-[14px] py-2'>[Social]</h6>
                             <ul>
-                                <a href="#"><li className='flex justify-start items-center gap-2'><GoArrowRight /> Facebook</li></a>
-                                <a href="#"><li className='flex justify-start items-center gap-2'><GoArrowRight /> Instagram</li></a>
-                                <a href="#"><li className='flex justify-start items-center gap-2'><GoArrowRight /> LinkedIn</li></a>
-                                <a href="#"><li className='flex justify-start items-center gap-2'><GoArrowRight /> Youtube</li></a>
+                                <a href="#"><li className='flex justify-start items-center gap-2 hover:text-red-300'><GoArrowRight /> Facebook</li></a>
+                                <a href="#"><li className='flex justify-start items-center gap-2 hover:text-red-300'><GoArrowRight /> Instagram</li></a>
+                                <a href="#"><li className='flex justify-start items-center gap-2 hover:text-red-300'><GoArrowRight /> LinkedIn</li></a>
+                                <a href="#"><li className='flex justify-start items-center gap-2 hover:text-red-300'><GoArrowRight /> Youtube</li></a>
                             </ul>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Footer = () => {
 
                 {/* copyright */}
                 <div className="copy-right pt-15">
-                    <p className='text-[14px] text-gray-600'>© {year} - Alrights reserved by Prism Adverto</p>
+                    <p className='text-[14px] text-gray-600'>© {year} Alrights reserved by Royal Synergy  - Developed by <a href="www.prismadverto.com" className='text-red-300'>Prism Adverto</a></p>
                 </div>
             </footer>
         </>
